@@ -6,7 +6,21 @@ import org.loose.fis.reservation.manager.model.User;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+* This is the main class of the reservation manager
+* Currently this class contains some dummy users and some dummy reservations.
+* Finally, after creating them, the main method of this class prints them out.
+*
+* Feel free to run the main method at any time. :)
+*/
+
 public class Main {
+
+   /**
+    * @param args not used
+    *
+    * this method starts the application :)
+    */
    public static void main(String[] args) {
        User user1 = new User("John", "Doe", 43);
        User user2 = new User("Angelina", "Clooney", 25);
